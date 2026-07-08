@@ -1,0 +1,35 @@
+# 모델·데이터는 볼륨 마운트로만 사용
+models/
+data/
+
+# 파이썬
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+
+# 가상환경
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Git
+.git/
+.gitignore
+
+# 노트북·문서
+*.ipynb
+*.ipynb_checkpoints/
+README.md
+results/
+
+# OS
+.DS_Store
+Thumbs.db
