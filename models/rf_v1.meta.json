@@ -1,0 +1,74 @@
+{
+  "model_version": "rf_v1",
+  "trained_at": "2026-05-02T08:49:49.722777Z",
+  "trained_rpm": 1772.0,
+  "fs": 12000,
+  "segment_length": 4096,
+  "feature_names": [
+    "RMS",
+    "Kurtosis",
+    "Crest",
+    "P2P",
+    "Skewness",
+    "Std",
+    "FFT_0_200",
+    "FFT_200_500",
+    "FFT_2k_5k",
+    "Env_BPFO",
+    "Env_BPFI",
+    "Env_BSF",
+    "Env_0_200",
+    "Env_200_500"
+  ],
+  "class_names": [
+    "Normal",
+    "Inner",
+    "Outer",
+    "Ball"
+  ],
+  "metrics": {
+    "holdout_accuracy": 0.9523809523809523,
+    "cv_mean": 0.9571428571428571,
+    "cv_std": 0.026726124191242425,
+    "cv_folds": [
+      0.9285714285714286,
+      0.9642857142857143,
+      0.9642857142857143,
+      1.0,
+      0.9285714285714286
+    ],
+    "confusion_matrix": [
+      [
+        4,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        11,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        13,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        12
+      ]
+    ],
+    "n_samples": 140,
+    "n_per_class": {
+      "Normal": 14,
+      "Inner": 42,
+      "Outer": 42,
+      "Ball": 42
+    }
+  }
+}
