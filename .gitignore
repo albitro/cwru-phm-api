@@ -1,11 +1,6 @@
-# 모델 가중치 — 248K로 작아서 API가 clone 즉시 뜨도록 커밋에 포함한다.
-# (재학습은 scripts/train.py, CWRU 데이터 필요)
-
 # 원본 데이터 (CWRU 공개 데이터, 84MB — 저장소에 두지 않음. 아래 링크에서 다운로드)
 # https://engineering.case.edu/bearingdatacenter
 data/raw/*.mat
-
-# 예제 페이로드 — 합성 데이터라 커밋에 포함(데이터 없이 make example-curl-all 데모 가능)
 
 # 파이썬
 __pycache__/
