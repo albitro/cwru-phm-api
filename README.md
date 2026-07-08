@@ -55,7 +55,7 @@ POST /predict
 linux, docker, docker compose, make, curl
 ```
 
-## 빠른 시작 (데모 — 데이터·학습 불필요)
+## 빠른 시작
 
 학습된 모델(`models/rf_v1.joblib`)과 합성 예제 페이로드(`examples/*.json`)가 저장소에 포함되어 있어, **CWRU 데이터 다운로드나 재학습 없이 바로 실행**할 수 있습니다.
 
@@ -67,7 +67,7 @@ make example-curl-all        # 합성 예제 4종을 curl로 호출 (한 줄 요
 
 `http://localhost:8000/docs`에서 Swagger UI 확인.
 
-## 재학습 (선택 — CWRU 데이터 필요)
+## 재학습 (선택 - CWRU 데이터 필요)
 
 모델을 직접 다시 학습하려면:
 
@@ -274,9 +274,13 @@ cwru_phm_api/
 
 ## 데이터 출처
 
-CWRU Bearing Data Center — https://engineering.case.edu/bearingdatacenter
+CWRU Bearing Data Center - https://engineering.case.edu/bearingdatacenter
 (원본 `.mat` 데이터는 저장소에 포함하지 않으며, 위 링크에서 직접 다운로드해 `data/raw/`에 배치합니다.)
 
 ## License
 
 MIT — [`LICENSE`](LICENSE) 참고.
+
+---
+
+> 이 프로젝트는 설계/구현/문서화 과정에서 Claude Code를 사용하여 진행되었습니다.
